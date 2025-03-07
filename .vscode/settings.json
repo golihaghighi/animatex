@@ -1,0 +1,15 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": false,
+    "files.autoSave": "onFocusChange",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "tailwindCSS.experimental.configFile": {
+      "packages/storybook/tailwind.config.js": ["packages/core/theme/**/*", "packages/components/**/*"],
+      "apps/docs/tailwind.config.js": "apps/docs/**/*"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+  }
